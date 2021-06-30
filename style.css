@@ -1,0 +1,96 @@
+html, body {
+    font-family: serif;
+    font-size: 20px;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 115, 219); 
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+    width: 350px;
+    height: 500px;
+    border: 2px solid #53b91f;;
+    border-radius: 10px;
+    box-shadow: -4px 6px 17px -1px rgba(0,0,0,0.83);
+    background: linear-gradient(63deg, rgba(2,0,36,1) 0%, rgba(16,80,31,0.9668242296918768) 5%, rgba(0,212,255,1) 100%);
+}
+.city {
+    display: inline-flex;
+    align-self: flex-end;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 60px;
+    background: rgb(34, 143, 143);
+    border-radius: 5px;
+}
+.tempetature {
+    
+    font-size: 30px;
+    color: #060200;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.out-img img {
+    height: 100%;
+} 
+
+.inform {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+
+}
+
+.descr {
+    position: absolute;
+    top: 160px;
+    text-transform: uppercase;
+    color:rgb(25, 107, 29);
+    
+}
+.out-img img{
+    width: 200px;
+}
+
+p {
+    margin: 0;
+}
+.button {
+    width: 150px;
+    margin-top: 30px;
+    background:linear-gradient(to bottom, #269e46 5%, #5cbf2a 100%);
+	background-color:#269e46;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #47d632;
+}
+
+.button:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #269e46 100%);
+	background-color:#5cbf2a;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
